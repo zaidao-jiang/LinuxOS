@@ -1,0 +1,58 @@
+# Auhor: maodun
+# Modifydate: 2026.1.31
+
+
+
+# Bash Configuration
+[[language]]
+	name = "bash"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Rust Configuration
+[[language]]
+	name = "rust"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# C Configuration
+[[language]]
+	name = "c"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Markdown Configuration
+[[language]]
+	name = "markdown"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Html Configuration
+[[language]]
+	name = "html"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Ini Configuration
+[[language]]
+	name = "ini"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Toml Configuration
+[[language]]
+	name = "toml"
+	indent = { tab-width = 8, unit = "\t" }
+
+
+
+# Kdl Configuration
+[[language]]
+	name = "kdl"
+	indent = { tab-width = 8, unit = "\t" }

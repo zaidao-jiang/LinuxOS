@@ -1,0 +1,45 @@
+# Author: maodun
+# Modifydate: 2026.1.30
+
+
+
+# Theme Configuration
+theme = "autumn"
+
+
+
+# Cursor-shape Configuration
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+
+
+# File-picker Configuration 
+[editor.file-picker]
+hidden = false
+
+
+
+# Statusline Configuration
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+
+
+# Keymap Configuration
+[keys.normal]
+C-s = ":w"
+C-x = ":q!"
+C-q = ":wq"
+C-down = "half_page_down"
+C-up = "half_page_up"
